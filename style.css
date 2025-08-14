@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Moon+Dance&display=swap');
+
+html {
+  scroll-behavior: smooth;  
+}
+body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding: 0%;
+   margin: 0%;
+}
+ul {
+    margin: 0%;
+    padding: 0%;
+}
+li {
+    list-style: none;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+    color: rgb(58, 88, 10);
+}
+
+/* ***********NAVBAR*********** */
+nav {
+    overflow: hidden;
+    background-color: rgba(246, 247, 245, 0.267);
+    position: fixed;
+    width: 100%;
+    opacity: 0,9;
+    
+}
+header li {
+    float: right;
+    font-size: 1,2em;
+
+
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18%;
+}
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: red;
+}
+#icons {
+    width: 50%;
+    text-align: right;
+
+}
+#icon a {
+    display: inline-block;
+    margin: 0% 15px;
+    font-size:1,3em ;
+    color: blue;
+}
+#icons a:hover {
+    transform: scale(1.5);
+    transition: o.1s;
+}
+/* ***********PRESENTATION************ */
+#presentation {
+    background-color: bisque;
+    padding: 10px 0px 100px 0;
+}
+#texteIntro {
+    padding: 0px 20%;
+}
+#prestation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
